@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+html {
+    font-size: 1rem !important;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: no-repeat center url('./img/casa.jpg') fixed;
+    height: 100vh;
+}
+
+.preencher-tela {
+    height: 100vh;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: rgb(148, 148, 148)
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+/* XS */
+
+@media (max-width: 575px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+    .preencher-tela {
+        height: 100% !important;
+    }
+}
+
+/* SM */
+
+@media (min-width: 576px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+    .preencher-tela {
+        height: 100% !important;
+    }
+}
+
+/* MD */
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+    .preencher-tela {
+        height: 100vh !important;
+    }
+}
+
+/* LG */
+
+@media (min-width: 992px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* XL */
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 1.2rem !important;
+    }
+}
+
+.texto-dourado {
+    color: #FFF2BF;
+}
+
+.card, .btn, .form-control {
+    border-radius: 2px;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.btn-primary {
+    border: none;
+    background: #B3A674;
+    color: #fff;
+    transition: background .1s
+}
+
+.btn-primary:hover {
+    border: none;
+    background: #665D38;
+    color: #fff;
+}
+
+.btn-primary:active {
+    box-shadow: 1px 1px 2px #665D38 !important;
+    background: #665D38 !important;
+}
+
+.btn-primary:focus-within {
+    box-shadow: none;
+}
+
+.btn-primary:focus {
+    background: #665D38;
+}
+
+.card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    ;
+}
+
+a {
+    color: #414141;
+}
+
+a:hover {
+    color: #414141;
+    text-decoration: underline;
+}
+
+.mt-nav {
+    padding: 80px 0px 0px 0px;
+}
+
+.escurece-fundo {
+    background: rgb(0, 0, 0, .8);
+}
+
+.form-control {
+    font-size: .8rem !important;
+}

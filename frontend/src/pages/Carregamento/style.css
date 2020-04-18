@@ -1,0 +1,16 @@
+.carregamento-container {
+    position: fixed;
+    background: rgb(0, 0, 0, .5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1031;
+    
+}
+.carregamento-container img{
+    animation:gira 4s linear infinite;
+}
+@keyframes gira {
+    100% {
+        transform: rotate(360deg);
+    }
+}

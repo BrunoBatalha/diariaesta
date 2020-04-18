@@ -1,0 +1,35 @@
+.formulario-card {
+    max-width: 460px;
+    padding: 25px 0;
+}
+
+.formulario-card .card-body p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #B3A674;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.formulario-card .card-body p span {
+    background: #f9f9f9;
+    padding: 0 10px;
+}
+
+.formulario-card .card-body form .form-control {
+    border: none;
+    border-bottom: 2px solid #c8c8cc;
+    background: transparent;
+}
+
+.formulario-card .card-body form .form-group .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #B3A674;
+    background: transparent;
+    transition-property: opacity border-bottom;
+    transition-duration: .5s
+    /* animation: input-selecionado 1s; 
+    animation-timing-function: ease; */
+}
