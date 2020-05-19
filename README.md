@@ -2,7 +2,7 @@
 
 Site desenvolvido utilizando:
 >**Front-end:** ReactJs, Axios, Google-maps-react, Bootstrap\
-**Back-end:** AdonisJs
+**Back-end:** AdonisJs\
 **Banco de dados:** MongoDB
 
 ## Gifs
