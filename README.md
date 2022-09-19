@@ -17,5 +17,8 @@ conseguirem um emprego mais rápido baseado na sua localização. JWT foi utiliz
 após o login o Font-end envia uma requisição pro Back-end buscando
 todos os usuários que salvaram suas localizações e após isso exibe no mapa. 
 
+## Link
+[Vídeo](https://www.linkedin.com/posts/bruno-batalha-_nodejs-reactjs-estudo-activity-6659555724257042432-umPx?utm_source=share&utm_medium=member_desktop)
+
 ## Autor
-[Bruno Batalha](https://bruno-batalha.firebaseapp.com/)
+[Bruno Batalha](https://github.com/BrunoBatalha/)
